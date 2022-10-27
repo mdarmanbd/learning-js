@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JS</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            .container{
+                display: flex;
+            } 
+            .three-img img {
+                width: 100%;
+                height: auto;
+                margin: auto;
+            }
+            .btn1, .btn2 {
+                cursor: pointer;
+                font-size: 10px;
+                padding: 2px 5px;
+                margin: 20px 5px;
+                border-style: none;
+                
+            }
+            .number{
+                width: 100px;
+                height: 50px;
+                margin: 20px;
+                border: 0.5px solid red;
+            }
+        </style>
+    </head>
+
+<body>
+    
+    <div class="container">
+        <button class="btn1" onclick="priv()" >privious</button>
+        
+        <img width="50px" height="auto" src="asset/imges/01.jpg" id="slide">
+       
+        <button class="btn2" onclick="next()" >next</button>
+    </div>
+
+
+    
+
+<script src="index.js"></script>
+</body>
+</html>  
+
+
+
+
+
+
+
