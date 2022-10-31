@@ -1,9 +1,52 @@
 
 
-for (let i = 1; i<100; i++){  // i = 1 2 3 4 5
+/*
+for (let i = 1; i <=10; i++){
+  let x = 9 * i;
+  document.write( '9 x ' + i + '=' + ' '+  x + '</br>');
+}
+*/
 
-  if( i%2 == 1) { // i = 1 2 3 4 5
-    document.write(i + '</br>'); // i = 1 3 5
+
+/*
+function number(namota){
+  
+  for (let i = 1; i<=10; i++){
+    let x = namota * i;
+    document.write( namota +'&nbsp'+ 'x' + '&nbsp' + i+ '&nbsp' + '=' + ' '+  x + '</br>' );
   }
-   
+
+}
+
+number(7);
+*/
+
+
+/*
+function myNumber(){
+
+  let a = document.getElementById('num1').value;
+ 
+  for (let i = 1; i<=10; i++){
+    let x = a * i;
+    document.write( a +'&nbsp'+ 'x' + '&nbsp' + i+ '&nbsp' + '=' + ' '+  x + '</br>' );
   }
+
+}
+
+*/
+
+
+
+function myNumber(){
+  let a = document.getElementById('num1').value;
+
+  for(let i = (a-1); i>0; i--){
+
+    
+    document.write(i);
+
+    
+  }
+  
+}
