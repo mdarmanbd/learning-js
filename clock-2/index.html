@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Clock</title>
+        <style>
+            #clock{
+                background-image: url(clock.jpg) ;
+                width: 75vh;
+                height: 75vh;
+                margin: auto;
+                background-size: 100%;
+                position: relative;
+            }
+            #hour,#minute,#second{
+                position: absolute;
+               
+                transform-origin: bottom;
+            }
+            #hour{
+                width: 2%;
+                height: 25%;
+                top: 24%;
+                left: 49%;
+                border-radius: 10px;
+               background: rgb(216, 216, 24);
+            }
+            #minute{
+                width: 2%;
+                height: 30%;
+                top: 20%;
+                left: 49%;
+                border-radius: 10px;
+                background: rgb(202, 202, 33);
+            }
+            #second{
+                width: 2%;
+                height: 35%;
+                top: 14%;
+                left: 49%;
+                border-radius: 10px;
+                background: rgb(206, 206, 3);
+            }
+
+        </style>
+    </head>
+    <body>
+        <section id="clock">
+            <div id="hour"></div>
+            <div id="minute"></div>
+            <div id="second"></div>
+        </section>
+        <script src="index.js"></script>
+    </body>
+</html>  
