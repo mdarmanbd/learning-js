@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JS</title>
+         <!---font-awesome cdn ---->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link rel="stylesheet" href="./stylesheet.css">
+        <style>
+            *{
+                background: rgb(210, 198, 233);
+            }
+           .slider{
+                position: absolute;
+                top: 30%;
+                left: 35%;
+                text-align: center;
+                transform: scale(0);
+                transition: transform 0.7s;
+           }
+           .slider i{
+            color: rgb(120, 38, 38);
+            font-size: 50px;
+           }
+           h1{
+            color: rgb(7, 7, 59);
+            font-size: 40px;
+            font-weight: 800;
+           }
+           .slider.current{
+            transform: scale(1);
+            transition: transform 0.7s;
+           }
+        </style>
+    </head>
+<body>
+   <div class="container">
+    <div class="slider current">
+        <i class="fa-solid fa-eye"></i>
+        <h1>i am looking for you</h1>
+    </div>
+    <div class="slider">
+        <i class="fa-solid fa-music"></i>
+        <h1>i am looking for you</h1>
+    </div>
+    <div class="slider">
+        <i class="fa-solid fa-person-running"></i>
+        <h1>i am looking for you</h1>
+    </div>
+   </div>
+   <script src="./index.js"> </script>
+</body>
