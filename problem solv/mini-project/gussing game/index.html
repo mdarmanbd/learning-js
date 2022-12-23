@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JS</title>
+         <!---font-awesome cdn ---->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link rel="stylesheet" href="./stylesheet.css">
+        <style>
+            
+        </style>
+    </head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-tital">
+               <h1>Guessing a game</h1>
+            </div>
+            <div class="card-body">
+                <form>
+                    <div class="form-field">
+                        <label for="guessingNumber">Guess a number 1 to 5:</label>
+                        <input id="guessingNumber" type="number" min="1" max="5" required>
+                    </div>
+                    <div class="buttons">
+                        <button id="check" type="submit" class="btn" >Check a result</button>
+                    </div> 
+                </form>
+                <p class="resultText"></p>
+                <p class="remainingAttempts"></p>
+            </div>
+        </div>
+    </div>
+
+   <script src="./index.js"> </script>
+</body>
