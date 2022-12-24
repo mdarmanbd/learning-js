@@ -1,0 +1,29 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+}
+.container{
+    display: flex;
+    padding: 30px 20px; 
+
+}
+select{
+    width: 70px;
+}
+button{
+    background: gold;
+    margin-left: 10px;
+    padding: 3px 5px;
+}
+
+main{
+    width: 90%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 25px;
+    background: rgb(190, 185, 185);
+    padding: 10px;
+}
