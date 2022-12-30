@@ -1,0 +1,123 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <title>Web</title>
+        <style>
+            *{
+                box-sizing: border-box;
+                padding: 0px;
+                margin: 0px;
+                list-style-type: none;
+                text-decoration: none;
+                outline: none;
+            }
+            /* html{
+                scroll-behavior: smooth;
+            } */
+
+            .container{
+                background: gray;
+                display: flex;
+                height: 100vh;
+                justify-content: center;
+                align-items: center;
+                
+            }
+            .card{
+                background-color: black;
+                color: white;
+                padding: 8px;
+                height: 80vh;
+                width: 50%;
+                overflow: scroll;
+                border-radius: 8px;
+            }
+            .card-tital{
+                font-size: 22px;
+                text-align: center;
+                margin-bottom: 7px;
+            }
+            input{
+                border: none;
+                border-radius: 7px;
+                padding: 6px;
+                width: 80%;
+            }
+            .btn{
+                border: none;
+                border-radius: 7px;
+                padding: 7px;
+                background-color: orange;
+                color: white;
+                transition: all 0.5s;
+                cursor: pointer;
+            }
+            .btn:hover{
+                background-color: wheat;
+                color: black;
+            }
+            #addTodoButton{
+                width: 15%;
+            }
+            .list-style{
+                display: flex;
+                justify-content: space-between;
+                background-color: grey;
+                color: white;
+                padding: 5px;
+                margin: 5px;
+                border-radius: 7px;
+                font-size: 20px;
+            }
+            .list-style:hover{
+                background: rgb(105, 104, 104);
+            }
+            .bg-success{
+                padding: 5px;
+                margin: 5px;
+                background: rgb(224, 224, 173);
+                color: white;
+                border-radius: 5px;
+            }
+            .bg-danger{
+                padding: 5px;
+                margin: 5px;
+                background: rgb(183, 114, 89);
+                color: white;
+                border-radius: 5px;
+            }
+
+        </style>
+        
+    </head>
+    <body>
+        <div class="container">
+            <div class="card">
+                <h1 class="card-tital">Todo app</h1>
+                <div class="card-body">
+                    <form class="todo-form">
+                        <input type="text" placeholder="enter a todo text" id="inputTodo" class="" required>
+                        <button type="submit" class="btn" id="addTodoButton">add todo</button>
+                    </form>
+                    <p id="message"></p>
+                    <ul id="lists" ></ul>
+                </div>
+            </div>
+        </div>
+
+
+    <script src="index.js"></script>
+    </body>
+</html>  
+
+
+
+
+
+
+
