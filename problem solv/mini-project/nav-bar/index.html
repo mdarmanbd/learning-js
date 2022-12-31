@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JS</title>
+         <!---font-awesome cdn ---->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link rel="stylesheet" href="./stylesheet.css">
+        <style>
+            *{
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+                text-decoration: none;
+                font-style: normal;
+            }
+            .nav-bar{
+               width: 100%;
+                display: flex;
+                background: rgb(190, 186, 186);
+            }
+            .nav{
+                display: flex;
+                margin: auto;
+            }
+            .nav-item{
+               padding: 20px;
+            }
+          
+            a{
+                font-size: 18px;
+                color: black;
+            }
+            .btn{
+                font-size: 18px;
+                padding: 4px 7px;
+                cursor: pointer;
+            }
+            .mobile-nav{
+                padding: 20px;
+               
+            }
+            .btn{
+                display: block;
+            }
+           
+            .display{
+                    display: none !important;
+            }
+            
+            @media screen and (min-width:800px){
+                .btn{
+                    display: none !important;
+                }
+                .mobile-nav{
+                     padding: 20px;
+                }
+                .display{
+                    display: none !important;
+                }
+                
+            }
+           
+           
+        </style>
+    </head>
+<body>
+    <nav class="nav-bar">
+        <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">A Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">B Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+        </ul>
+          <div class="nav-item">
+            <button type="click" class="btn"><i class="fa-solid fa-bars"></i></button>
+        </div>
+            <div class="mobile-nav display">
+                <ul class="navb">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Active</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">A Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">B Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+  
+
+   <script src="./index.js"> </script>
+</body>
