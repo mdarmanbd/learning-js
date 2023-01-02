@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JS</title>
+         <!---font-awesome cdn ---->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link rel="stylesheet" href="./stylesheet.css">
+        <style>
+            *{
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+            .container{
+                width: 100%;
+                height: 100vh;
+                padding: 10px;
+                background: rgb(137, 103, 103);
+            }
+            .card{
+                width: 30%;
+                height: 40vh;
+                margin: auto;
+                border: 1px solid black;
+                border-radius: 5px;
+                background: gray;
+            }
+            .card h2{
+                text-align: center;
+                font-size: 23px;
+                font-weight: bold;
+                color: black;
+                padding: 20px;
+            }
+            .modol-btn{
+                text-align: center;
+                padding-top: 40px;
+            }
+            .btn{
+                padding: 4px 6px;
+                cursor: pointer;
+                font-size: 18px;
+                color: black;
+               
+            }
+            .closeBtn{
+                padding: 4px 6px;
+                cursor: pointer;
+                font-size: 18px;
+                color: black;
+            }
+            .d-none{
+                display: none !important;
+            }
+            .d-block{
+                display: block !important;
+            }
+            
+        </style>
+    </head>
+<body>
+    <div class="container">
+        <div class="card ">
+            <div class="amodol ">
+                <h2>A modol project</h2>
+                <div class="modol-btn">
+                    <button type="click" class="btn">modol project</button>
+                </div>
+            </div>
+           <div class="bmodol ">
+                <h2>B modol project</h2>
+                <div class="modol-btn">
+                    <button type="click" class="closeBtn">close project</button>
+                </div>
+           </div>
+        </div>
+
+    </div>
+
+   <script src="./index.js"> </script>
+</body>
