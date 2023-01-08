@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.container{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+.title{
+    padding: 10px;
+    width: 25%;
+    margin: auto;
+    background: #f9d3d3;
+    border-radius: 5px;
+}
+
+.title h2{
+    color: rgb(69, 65, 42);
+    font-weight: 600;
+}
+.card-body{
+    background: gray;
+    width: 25%;
+    margin: auto;
+    height: 300px;
+    border-radius: 5px;
+}
+
+#grocery-item{
+    padding: 20px 0px;
+}
+#inputText{
+    width: 70%;
+    height: 25px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 20px;
+}
+.btn{
+    padding: 2px 5px;
+    background: #90e690;
+    color: black;
+    font-size: 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.itemStyle{
+    width: 51%;;
+    font-size: 20px;
+    color: white;
+    float: left;
+    padding-bottom: 5px;
+    text-transform: capitalize;
+}
+
