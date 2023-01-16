@@ -1,6 +1,6 @@
 
 
-
+/*
 
 $('h1').text('i am js'); // $ = document.quarySelector; .text() = change the text;
 
@@ -15,3 +15,11 @@ $('#secondID .day').after(afterText); // add the afterText after the .day class.
 
 let beforeText = $('<h2></h2>').text('add the line before the day'); // creat the heading2 & add the text.
 $('#firstId p').before(beforeText);  // add the beforeText before the p tag.
+
+*/
+
+
+
+for(let i = 0; i < 5; i++) {
+    $('.list').append('<li> First list </li>');
+}
