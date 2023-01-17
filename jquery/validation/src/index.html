@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!---font-awesome cdn ---->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body>
+
+    <section class="w-full">
+        <div class=" bg-slate-300 w-1/2 m-auto px-4 h-auto">
+            <p class="text-center font-sans font-bold text-orange-600 py-3">Add a new blog</p>
+            <div class="py-2">
+                <p class="text-blue-900 font-normal font-19 pb-2">Blog title :</p>
+                <input type="text" class="w-full h-8 rounded p-3 font-19 outline-none bg-slate-50" placeholder="write a blog ">
+            </div>
+            <div class="py-2">
+                <p class="text-blue-900 font-normal font-19 pb-2">Blog body :</p>
+                <input type="text" class="w-full h-10 rounded p-3 font-19 outline-none bg-white" id="blog" >
+                <p id="blogWorning"></p>
+            </div>
+            <div class="py-2">
+                <p class="text-blue-900 font-normal font-19 pb-2">Author :</p>
+                <input type="text" class="w-full h-10 rounded p-3 font-19 outline-none bg-white" id="author" >
+                <p id="authorWorng"></p>
+            </div>
+            <div class="py-2">
+                <p class="text-blue-900 font-normal font-19 pb-2">Number :</p>
+                <input type="number" class="w-full h-10 rounded p-3 font-19 outline-none bg-white" id="number">
+                <p id="numberWrong"></p>
+            </div>
+            <div class="py-2">
+                <p class="text-blue-900 font-normal font-19 pb-2">Email :</p>
+                <input type="text" class="w-full h-10 rounded p-3 font-19 outline-none bg-white" id="email">
+                <p id="emailWrong"></p>
+            </div>
+            <div class="py-2 text-center">
+                <button type="button" class="bg-slate-600 text-white font-19 py-1 px-5 rounded cursor-pointer" id="btn">save</button>
+            </div>
+            
+        </div>
+    </section>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>

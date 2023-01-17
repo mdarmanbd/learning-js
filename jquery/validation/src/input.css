@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    /* list-style: none; */
+}
+
+.demo-class{
+    color:red;
+}
+.font-19{
+    font-size: 19px;
+}
+.worningMassage{
+    font-size: 14px;
+    color: rgb(243, 53, 53);
+    transition: 0.2s all;
+    text-align: center;
+}
